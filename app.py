@@ -12,7 +12,7 @@ if ENV == "dev":
   
 else:
     app.debug=False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://admin:2qaxRvmPJGnE4x3bN7y4yIMeLmTQtBuh@dpg-cp9ftn5ds78s73ch8lng-a/prod_postgres_3w69'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://admin:2qaxRvmPJGnE4x3bN7y4yIMeLmTQtBuh@dpg-cp9ftn5ds78s73ch8lng-a:5432/prod_postgres_3w69'
     
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
